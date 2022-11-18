@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Landing from "./pages/Landing";
 import Navbar from "./pages/Navbar";
+import Pricing from './pages/Pricing';
 import Services from "./pages/Services";
 import Footer from './pages/Footer';
 
@@ -40,6 +41,10 @@ function App() {
       </div>
       <LineGradient />
       <div className="w-5/6 mx-auto">
+        <Pricing />
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full">
         <Services />
       </div>
       <LineGradient />

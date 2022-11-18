@@ -34,7 +34,7 @@ const Contact = () => {
       >
         <div>
           <p className="z-20 font-normal text-4xl">
-            Let's <span className="z-20 text-lightBlue font-bold">create</span> something together 
+            Get in touch with me.
           </p>
           <div className="z-20 flex md:justify-end my-5">
             <LineGradient width="w-1/2" />

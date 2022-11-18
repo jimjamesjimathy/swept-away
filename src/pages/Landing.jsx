@@ -23,8 +23,13 @@ const Landing = ({ setSelectedPage }) => {
               visible: { opacity: 1, y: 0 },
             }}
           >
+            <div
+              className="z-20 relative ml-20 before:absolute before:-top-[9%] before:-left-[7%]
+                before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-4 before:border-gold before:z-[-1]"
+            >
+              <img src={hero} alt="" className="w-full max-w-[400px] md:max-w-[600px]" />
+            </div>
 
-            <img src={hero} alt="" className="w-full max-w-[400px] md:max-w-[600px]" />
           </motion.div>
         ) : (
           <div className="">
@@ -48,10 +53,10 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="font-calig text-7xl">
+          <p className="font-thin text-7xl">
             Swept Away
           </p>
-          <p className="mt-10 text-md text-center">
+          <p className="mt-10 text-md text-center font-light">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eius
             deserunt amet quos omnis nihil nam repellendus veritatis.
           </p>
